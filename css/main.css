@@ -1,0 +1,139 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    width: 100%;
+
+    background: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__nav {
+    padding: 24px;
+    margin: auto;
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto";
+    color: #000;
+}
+
+.nav__ul {
+    display: flex;
+    column-gap: 15px;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+.nav__link {
+    color: #000;
+    transition: .5s;
+}
+
+.nav__link:hover {
+    color: #EF4423;
+}
+
+.main__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__card {
+    width: 350px;
+    height: 378px;
+    background: #B71C1C;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.section__card:nth-child(2) {
+    flex-direction: column-reverse;
+    background-color: #6A1B9A;
+}
+.section__card:nth-child(4) {
+    flex-direction: column-reverse;
+    background: #00695C;
+}
+.section__card:nth-child(3) {
+    background: #303F9F;
+}
+.card1__text-h4 {
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    padding: 15px;
+}
+.card1__text-h3 {
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    padding: 15px;
+}
+.card1__text-h2 {
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    padding: 15px;
+}
+.card1__text-h1 {
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    padding: 15px;
+}
+
+.card1__text-p1 {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    font-family: "Roboto_300";
+    padding: 0 15px;
+}
+.card1__text-p2 {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    font-family: "Roboto_300";
+    padding: 0 15px 15px 15px;
+}
+.card1__text-p3 {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    font-family: "Roboto_300";
+    padding: 0 15px;
+}
+.card1__text-p4 {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    font-family: "Roboto_300";
+    padding: 0 15px 15px 15px;
+}
