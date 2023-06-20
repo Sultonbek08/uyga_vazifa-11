@@ -66,20 +66,23 @@
     background: #B71C1C;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .section__card:nth-child(2) {
     flex-direction: column-reverse;
     background-color: #6A1B9A;
 }
+
 .section__card:nth-child(4) {
     flex-direction: column-reverse;
     background: #00695C;
 }
+
 .section__card:nth-child(3) {
     background: #303F9F;
 }
+
 .card1__text-h4 {
     font-size: 19px;
     line-height: 22px;
@@ -87,6 +90,7 @@
     font-family: "Roboto";
     padding: 15px;
 }
+
 .card1__text-h3 {
     font-size: 19px;
     line-height: 22px;
@@ -94,6 +98,7 @@
     font-family: "Roboto";
     padding: 15px;
 }
+
 .card1__text-h2 {
     font-size: 19px;
     line-height: 22px;
@@ -101,6 +106,7 @@
     font-family: "Roboto";
     padding: 15px;
 }
+
 .card1__text-h1 {
     font-size: 19px;
     line-height: 22px;
@@ -113,27 +119,90 @@
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
-    font-family: "Roboto_300";
+    font-family: "Roboto_100";
     padding: 0 15px;
 }
+
 .card1__text-p2 {
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
-    font-family: "Roboto_300";
+    font-family: "Roboto_100";
     padding: 0 15px 15px 15px;
 }
+
 .card1__text-p3 {
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
-    font-family: "Roboto_300";
+    font-family: "Roboto_100";
     padding: 0 15px;
 }
+
 .card1__text-p4 {
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
-    font-family: "Roboto_300";
+    font-family: "Roboto_100";
     padding: 0 15px 15px 15px;
+}
+
+.h2 {
+    height: 108px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto";
+}
+
+.section_2 {
+    background: #EDEDED;
+}
+
+.section2_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.box_h2 {
+    width: 540px;
+    height: 52px;
+    font-family: "Roboto";
+}
+
+.box_p {
+    width: 540px;
+    height: 398px;
+    font-family: "Roboto_400";
+    color: #686868;
+    font-size: 18px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+}
+.main{
+    padding-bottom: 50px;
+}
+.footer{
+    background: #3A3838;
+}
+.nav__logo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto";
+    color: #fff;
+}
+.nav__link2 {
+    color: #fff;
+    transition: .5s;
+}
+.nav__link2:hover {
+    color: #EF4423;
 }
